@@ -190,6 +190,8 @@ footer {
 
 	section img {
 		float: none;
+		width: 370px;
+		height: 450px;
 	}
 
 	#portfolio {
@@ -201,6 +203,7 @@ footer {
 		position: static;
 		margin-bottom: 20px;
 		width: 370px;
+		height: 300px;
 	}
 
 /* Side Bar */
@@ -258,8 +261,13 @@ footer {
 		position: static;
 		margin: 15px 30px 15px 0px;
 		float: left;
-		width: 300px;
+		width: 305px;
 		height: 180px;
+	}
+
+	.img_two, .img_four {
+		margin-right: 0;
+		margin-left: 27px;
 	}
 
 	section h1 {
@@ -274,10 +282,85 @@ footer {
 		margin-top: 40px;
 	}
 
+	aside p {
+		margin: 0;
+	}
+
 }
 
 @media screen and (max-width: 640px) {
 
+	body {
+		width: 640px;
+	}
 
+/* Top Section */
+
+	#top {
+		width: 640px;
+	}
+
+	header {
+		margin-left: 0px;
+		width: 640px;
+		padding: 20px 0;
+	}	
+
+	nav {
+		width: 640px;
+		margin: 0 0px;
+	}	
+
+	nav a {
+		margin: 0 60px;
+	}
+
+/* Main Section */
+
+	#mid {
+		width: 595px;
+		margin: 15px;
+	}
+
+	section {
+		width: 555px;
+	}
+
+	section img {
+		width: 555px;
+		height: 600px;
+		float: none;
+		margin: 0 25px 10px 0;
+	}
+
+	#portfolio {
+		position: static;
+		width: 370px;
+		display: inline;
+	}
+
+	.img {
+		position: static;
+		margin: 15px 30px 15px 0px;
+		float: left;
+		width: 555px;
+		height: 300px;
+	}
+
+	section h1 {
+		margin-bottom: 10px;
+	}
+
+/* Side Bar */
+
+	aside {
+		width: 555px;
+		float: left;
+		margin-top: 40px;
+	}
+
+	aside p {
+		margin: 0;
+	}
 
 }
