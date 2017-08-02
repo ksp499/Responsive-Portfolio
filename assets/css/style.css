@@ -200,6 +200,7 @@ footer {
 	.img {
 		position: static;
 		margin-bottom: 20px;
+		width: 370px;
 	}
 
 /* Side Bar */
@@ -211,15 +212,72 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
+
+	body {
+		width: 768px;
+	}
+
+/* Top Section */
+
+	#top {
+		width: 768px;
+	}
+
 	header {
-		font-size: 20px;
+		margin-left: 20px;
+	}	
+
+	nav {
+		width: 260px;
+		margin: 0 20px;
+	}
+
+/* Main Section */
+
+	#mid {
+		width: 728px;
+		margin: 30px 20px 30px 20px;
+	}
+
+	section {
+		width: 670px;
+	}
+
+	section img {
+		float: left;
+		margin: 0 25px 10px 0;
+	}
+
+	#portfolio {
+		position: static;
+		width: 370px;
+		display: inline;
+	}
+
+	.img {
+		position: static;
+		margin: 15px 30px 15px 0px;
+		float: left;
+		width: 300px;
+		height: 180px;
+	}
+
+	section h1 {
+		margin-bottom: 10px;
+	}
+
+/* Side Bar */
+
+	aside {
+		width: 670px;
+		float: left;
+		margin-top: 40px;
 	}
 
 }
 
 @media screen and (max-width: 640px) {
-	header {
-		font-size: 100px;
-	}
+
+
 
 }
