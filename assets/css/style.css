@@ -158,3 +158,68 @@ footer {
 	font-size: 13px;
 	border-top: 5px solid #4aaaa5;
 }
+
+/* Media Queries */
+
+@media screen and (max-width: 980px) {
+
+	body {
+		width: 980px;
+	}
+
+/* Top Section */
+
+	#top {
+		width: 980px;
+	}
+
+	header {
+		margin-left: 120px;
+	}
+
+/* Main Section */
+
+	#mid {
+		width: 710px;
+		margin: 30px 0 30px 120px;
+	}
+
+	section {
+		width: 370px;
+	}
+
+	section img {
+		float: none;
+	}
+
+	#portfolio {
+		position: static;
+		width: 370px;
+	}
+
+	.img {
+		position: static;
+		margin-bottom: 20px;
+	}
+
+/* Side Bar */
+
+	aside {
+		width: 228px;
+	}
+
+}
+
+@media screen and (max-width: 768px) {
+	header {
+		font-size: 20px;
+	}
+
+}
+
+@media screen and (max-width: 640px) {
+	header {
+		font-size: 100px;
+	}
+
+}
